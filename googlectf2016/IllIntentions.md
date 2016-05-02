@@ -71,7 +71,7 @@ Time to read some code... we can see the application is using JNI, so maybe the 
 Ok, we can see that the activity loads some strings, it appends "YSmks", calls doBoth function in the Utilities class and so on... The interesting part is the native function call.
 If we click the button in the activity screen, we can't see any output: let's add some smali code to see what is the results of the native function calls in the three activities.
 
-We can see in the last part of smali, the result of ThisIsTheRealOne;->orThat is moved in **v5** register, so we can simply print the value of that register.
+We can see in the last part of smali, the result of **ThisIsTheRealOne;->orThat** is moved in **v5** register, so we can simply print the value of that register.
 
 ```
     const-string v0, "BackInBlack - "
