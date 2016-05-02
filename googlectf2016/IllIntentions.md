@@ -1,5 +1,7 @@
 # Ill Intentions
 
+*Solved by pox and kl0l*
+
 We have a file called **illintentions.apk**
 
 Let's decompile it
