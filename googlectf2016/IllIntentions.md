@@ -42,6 +42,8 @@ adb shell am start -n com.example.hellojni/com.example.application.ThisIsTheReal
 adb shell am start -n com.example.hellojni/com.example.application.DefinitelyNotThisOne
 ```
 
+(We have to add *android:exported="true"* in the activity-tag or using a device with root permissions)
+
 The only thing we can do when that activity is changed, is to click the button "Broadcast Intent".
 
 Time to read some code... we can see the application is using JNI, so maybe the interesting functions are in those native libraries. We don't want to spend time reversing that code, so let's read some **smali**. Ok, in all the activities there is a onClick handler, let's have a look:
