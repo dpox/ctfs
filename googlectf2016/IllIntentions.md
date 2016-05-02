@@ -1,6 +1,6 @@
 # Ill Intentions
 
-*Solved by pox and kl0l*
+*Solved by @_pox_ and @cogitoergor00t*
 
 We have a file called **illintentions.apk**
 
