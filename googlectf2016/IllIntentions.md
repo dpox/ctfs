@@ -1,6 +1,6 @@
 # Ill Intentions
 
-*Solved by @\_pox\_ and @cogitoergor00t*
+*Solved by https://twitter.com/\_pox\_ and https://twitter.com/cogitoergor00t*
 
 We have a file called **illintentions.apk**
 
